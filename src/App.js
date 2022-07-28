@@ -1,22 +1,44 @@
-import logo from './logo.svg';
+import logo from "./logo.svg"
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="app">
+      <header className="header">
+        <p className="title">
+          Getting Started Completed!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className="logo" alt="logo" />
+        <p className="subheading">
+          You've successfully deployed your first container!
+        </p>
+        <div className="link-wrapper">
+          <a
+            className="link"
+            href="https://docs.cycle.io/docs/intro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Docs
+          </a>
+          <a
+            className="link"
+            href="https://api-docs.cycle.io/api/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            API Reference
+          </a>
+          <a
+            className="link"
+            href="https://cycle.io/blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blog
+          </a>          
+        </div>
       </header>
     </div>
   );
